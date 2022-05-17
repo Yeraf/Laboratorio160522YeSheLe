@@ -54,18 +54,21 @@ let Heroes2 =
     }
   ]
 
-  // Ejercicio #1
+  // Paso 1 del Ejercicio #1
   console.log(typeof(Heroes2));
  
+
+
   localStorage.setItem("Datos",JSON.stringify(Heroes2))
 
   let BD = localStorage.getItem("Datos")
   console.log(BD)
 
+  //Convertir en JSON
+  JSON.parse(BD);  /* Lo transforma en formato JSON */
   console.log(typeof(BD));
 
-
-
+  // console.log(BD)
 
 
 

@@ -4,5 +4,13 @@
 }
 
 html {
-    margin: 10px;
+    margin: 20px;
+}
+
+#aparecer {
+    visibility: hidden;
+}
+
+#aparecer.apear {
+    visibility: visible;
 }
