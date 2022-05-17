@@ -1,7 +1,5 @@
 //Objeto JSON
 
-//
-
 let Heroes2 = 
 
 [
@@ -56,12 +54,15 @@ let Heroes2 =
     }
   ]
 
+  // Ejercicio #1
+  console.log(typeof(Heroes2));
  
-  localStorage.setItem("Datos","Heroes2")
+  localStorage.setItem("Datos",JSON.stringify(Heroes2))
 
   let BD = localStorage.getItem("Datos")
   console.log(BD)
 
+  console.log(typeof(BD));
 
 
 
