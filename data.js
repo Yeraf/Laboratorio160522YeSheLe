@@ -56,8 +56,6 @@ let Heroes2 =
 
   // Paso 1 del Ejercicio #1
   console.log(typeof(Heroes2));
- 
-
 
   localStorage.setItem("Datos",JSON.stringify(Heroes2))
 
@@ -65,70 +63,17 @@ let Heroes2 =
   console.log(BD)
 
   //Convertir en JSON
+
   JSON.parse(BD);  /* Lo transforma en formato JSON */
   console.log(typeof(BD));
 
-  // console.log(BD)
+
+  document.querySelector('#boton').addEventListener('click',traerDatos());
 
 
-
-function llamar () {
-      
-        // <img src="assets/img/wolverine.png" alt="" class="img">
-        // <h3>Wolverine</h3>
-        // <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vero autem possimus aliquid, ratione adipisci assumenda a quibusdam corrupti ducimus aliquam cumque debitis. Unde cumque vel, aliquid necessitatibus voluptates quam?</p>
-        // <input type="button" value="Ver detalle"></input>
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // function llamarLocalStore() {  
-  //   document.getElementById("local").innerHTML = localStorage.getItem("Datos")
+  function traerDatos() {
     
-  // }
+  }
 
 
-  /*
 
-// let boton = document.getElementById('local');
-
-// console.log(boton);
-
-  console.log (Heroes2);
-  console.log(typeof(Heroes2));
-
-  // console.log(Datos);
-  // let Datos = JSON.parse(localStorage.getItem('Datos',JSON.stringify(Heroes2))
-
-<body>
-
-<h1>The Window Object</h1>
-<h2>The localStorage Property</h2>
-
-<p>Saved name is:</p>
-<p id="demo"></p>
-
-<script>
-// Set Item
-localStorage.setItem("lastname", "Smith");
-// Retrieve
-document.getElementById("demo").innerHTML = localStorage.getItem("lastname");
-</script>
-
-</body>
-
-*/
