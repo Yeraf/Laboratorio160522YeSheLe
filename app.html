@@ -10,28 +10,19 @@
     <link rel="stylesheet" href="main.css">
     <title>Taller Ing Marcelo Mora</title>
     <script src="data.js" defer></script>
+    <script src="catalogo.json" defer></script>
 </head>
 
 <body>
     <div class="container">
         <input type="button" value="JSON" class="botonJason btn btn-dark" onclick="llamarLocalStore()" id="boton">
 
-        <div class="container" id="aparecer" onclick="llamar()">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Imagen</th>
-                        <th>Nombre</th>
-                        <th>Detalle</th>
-                    </tr>
-                </thead>
-                <tbody id="res">
-
-                </tbody>
-            </table>
+        <div class="crear" id="aparecer" onclick="llamar()">
+            
         </div>
     </div>
 
+    
 </body>
 
 </html>

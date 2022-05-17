@@ -55,25 +55,19 @@ let Heroes2 =
   ]
 
   // Paso 1 del Ejercicio #1
-  console.log(typeof(Heroes2));
+  // console.log(typeof(Heroes2));
 
   localStorage.setItem("Datos",JSON.stringify(Heroes2))
 
   let BD = localStorage.getItem("Datos")
-  console.log(BD)
+  // console.log(BD)
 
   //Convertir en JSON
 
   JSON.parse(BD);  /* Lo transforma en formato JSON */
-  console.log(typeof(BD));
+  // console.log(typeof(BD));
 
 
-  document.querySelector('#boton').addEventListener('click',traerDatos());
-
-
-  function traerDatos() {
-    
-  }
-
-
-
+ let imagen = Heroes1[5].nombre;
+ console.log(imagen);
+ $('.crear').attr('src',imagen)
