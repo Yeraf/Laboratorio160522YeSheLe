@@ -72,7 +72,14 @@ let Heroes2 =
 
 
 
+function llamar () {
+      
+        // <img src="assets/img/wolverine.png" alt="" class="img">
+        // <h3>Wolverine</h3>
+        // <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vero autem possimus aliquid, ratione adipisci assumenda a quibusdam corrupti ducimus aliquam cumque debitis. Unde cumque vel, aliquid necessitatibus voluptates quam?</p>
+        // <input type="button" value="Ver detalle"></input>
 
+}
 
 
 

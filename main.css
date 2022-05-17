@@ -3,14 +3,17 @@
     margin: 0%;
 }
 
-html {
-    margin: 20px;
+
+.img {
+    width: 300px;
 }
 
-#aparecer {
+
+
+/* #aparecer {
     visibility: hidden;
 }
 
 #aparecer.apear {
     visibility: visible;
-}
+} */
