@@ -1,6 +1,7 @@
 //Objeto JSON
 
 //
+
 let Heroes2 = 
 
 [
@@ -54,3 +55,11 @@ let Heroes2 =
       casa: "Marvel"
     }
   ]
+
+  let Datos = localStorage.setItem('Datos',JSON.stringify(Heroes2))
+
+  console.log (Heroes2);
+  console.log(typeof(Heroes2));
+  console.log(Datos);
+
+  
