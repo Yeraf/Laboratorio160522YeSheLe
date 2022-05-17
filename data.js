@@ -56,10 +56,68 @@ let Heroes2 =
     }
   ]
 
-  let Datos = localStorage.setItem('Datos',JSON.stringify(Heroes2))
+ 
+  localStorage.setItem("Datos","Heroes2")
+
+  let BD = localStorage.getItem("Datos")
+  console.log(BD)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // function llamarLocalStore() {  
+  //   document.getElementById("local").innerHTML = localStorage.getItem("Datos")
+    
+  // }
+
+
+  /*
+
+// let boton = document.getElementById('local');
+
+// console.log(boton);
 
   console.log (Heroes2);
   console.log(typeof(Heroes2));
-  console.log(Datos);
 
-  
+  // console.log(Datos);
+  // let Datos = JSON.parse(localStorage.getItem('Datos',JSON.stringify(Heroes2))
+
+<body>
+
+<h1>The Window Object</h1>
+<h2>The localStorage Property</h2>
+
+<p>Saved name is:</p>
+<p id="demo"></p>
+
+<script>
+// Set Item
+localStorage.setItem("lastname", "Smith");
+// Retrieve
+document.getElementById("demo").innerHTML = localStorage.getItem("lastname");
+</script>
+
+</body>
+
+*/
