@@ -116,63 +116,71 @@ function add1 () {
   //Se busca la información del heroe seleccionado  (img, nombre y bio) y se carga en los elementos creados dimamicamente
     switch (Heroebuscado2){
         case "Aquaman":
-              NewImg1.setAttribute ('src', 'assets/img/aquaman.png')    
+             // NewImg1.setAttribute ('src', 'assets/img/aquaman.png')    
               Heroes2.forEach (element =>{
                   if (`${element.nombre}` == Heroebuscado2) {
+                      NewImg1.src =  `${element.img}` 
                       NewH31.innerHTML = `${element.nombre}` 
-                      NewP1.innerHTML = `${element.bio}`    
+                      NewP1.innerHTML = `${element.bio}`
+                                          
                   }
               })
               break;
         case "Batman":
-              NewImg1.setAttribute ('src', 'assets/img/batman.png')    
+              //NewImg1.setAttribute ('src', 'assets/img/batman.png')    
               Heroes2.forEach (element =>{
                   if (`${element.nombre}` == Heroebuscado2) {
+                      NewImg1.src =  `${element.img}` 
                       NewH31.innerHTML = `${element.nombre}` 
                       NewP1.innerHTML = `${element.bio}`    
                   }
               })
               break;
         case "Daredevil":
-              NewImg1.setAttribute ('src', 'assets/img/daredevil.png')    
+              //NewImg1.setAttribute ('src', 'assets/img/daredevil.png')    
               Heroes2.forEach (element =>{
                   if (`${element.nombre}` == Heroebuscado2) {
+                      NewImg1.src =  `${element.img}` 
                       NewH31.innerHTML = `${element.nombre}` 
                       NewP1.innerHTML = `${element.bio}`    
                   }
               })
               break;
         case "Hulk":
-              NewImg1.setAttribute ('src', 'assets/img/hulk.png')    
+             // NewImg1.setAttribute ('src', 'assets/img/hulk.png')    
               Heroes2.forEach (element =>{
                   if (`${element.nombre}` == Heroebuscado2) {
+                      NewImg1.src =  `${element.img}` 
                       NewH31.innerHTML = `${element.nombre}` 
                       NewP1.innerHTML = `${element.bio}`    
                   }
               })
               break;
         case "Linterna Verde":
-              NewImg1.setAttribute ('src', 'assets/img/linterna-verde.png')    
+              //NewImg1.setAttribute ('src', 'assets/img/linterna-verde.png')    
               Heroes2.forEach (element =>{
                   if (`${element.nombre}` == Heroebuscado2) {
+                      NewImg1.src =  `${element.img}` 
                       NewH31.innerHTML = `${element.nombre}` 
                       NewP1.innerHTML = `${element.bio}`    
                   }
               })
               break;
         case "Spider-Man":
-              NewImg1.setAttribute ('src', 'assets/img/spiderman.png')    
+              //NewImg1.setAttribute ('src', 'assets/img/spiderman.png')    
               Heroes2.forEach (element =>{
                   if (`${element.nombre}` == Heroebuscado2) {
+                      NewImg1.src =  `${element.img}` 
                       NewH31.innerHTML = `${element.nombre}` 
                       NewP1.innerHTML = `${element.bio}`    
                   }
               })
               break;
         case "Wolverine":
-              NewImg1.setAttribute ('src', 'assets/img/wolverine.png')    
+             // NewImg1.setAttribute ('src', 'assets/img/wolverine.png')    
               Heroes2.forEach (element =>{
                   if (`${element.nombre}` == Heroebuscado2) {
+                      NewImg1.src =  `${element.img}` 
                       NewH31.innerHTML = `${element.nombre}` 
                       NewP1.innerHTML = `${element.bio}`    
                   }
