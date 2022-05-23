@@ -112,9 +112,9 @@ function add1 () {
 
   //Se toma el valor seleccionado por el usuario en la lista desplegable
     let Heroebuscado2=document.getElementById("select1").value
-  
+
   //Se busca la información del heroe seleccionado  (img, nombre y bio) y se carga en los elementos creados dimamicamente
-    switch (Heroebuscado2){
+         switch (Heroebuscado2){
         case "Aquaman":
               Heroes2.forEach (element =>{
                   if (`${element.nombre}` == Heroebuscado2) {
