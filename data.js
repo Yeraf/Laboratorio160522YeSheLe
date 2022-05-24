@@ -65,9 +65,6 @@ localStorage.setItem("Datos",JSON.stringify(Heroes))
 //Todo lo guardado en localstorage se almacena como string
 
 
-
-
-
 //*************************************************************************************************************************************************************************************************************************************************/
 //EJERCICIO #2
 //Paso #1 Realice un objeto llamado  “Heroes2” y almacene el objeto adjunto. 
